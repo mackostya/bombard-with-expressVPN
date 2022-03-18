@@ -1,4 +1,9 @@
 # DDoS with constant switch of the ip with expressVPN
+<p align="left">
+<a href="#"><img alt="License" src="https://img.shields.io/github/license/mackostya/bombard-with-expressvpn?color=orange&style=for-the-badge"></a>
+<a href="#"><img alt="MHDDoS last commit (main)" src="https://img.shields.io/github/last-commit/mackostya/bombard-with-expressvpn/main?color=green&style=for-the-badge"></a>
+</p>
+
 ![](/logos/hacker.jpg)
 
 This project implements a small script for a DDoS-attack with [alpine/bombardier](https://hub.docker.com/r/alpine/bombardier), which constantly switches the ip of the the attacker. Providers often can detect an attack after a few seconds or minutes and can block your ip. That is why I use [expressVPN](https://www.expressvpn.com) as it is reliable and has the possibility to operate the vpn connection in a shell on Linux platforms. The guideline how to start is decribed below.
