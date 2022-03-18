@@ -1,7 +1,7 @@
 # DDoS with constant switch of the ip with expressVPN
 <p align="left">
-<a href="#"><img alt="License" src="https://img.shields.io/github/license/mackostya/bombard-with-expressvpn?color=orange&style=for-the-badge"></a>
-<a href="#"><img alt="MHDDoS last commit (main)" src="https://img.shields.io/github/last-commit/mackostya/bombard-with-expressvpn/main?color=green&style=for-the-badge"></a>
+<a href="#"><img alt="License" src="https://img.shields.io/github/license/mackostya/bombard-with-expressvpn?color=orange&style=flat"></a>
+<a href="#"><img alt="MHDDoS last commit (main)" src="https://img.shields.io/github/last-commit/mackostya/bombard-with-expressvpn/main?color=green&style=flat"></a>
 </p>
 
 ![](/logos/hacker.jpg)
