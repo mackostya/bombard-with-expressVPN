@@ -6,6 +6,8 @@
 
 ![](/logos/hacker.jpg)
 
+## Intro
+
 This project implements a small script for a DDoS-attack with [alpine/bombardier](https://hub.docker.com/r/alpine/bombardier), which constantly switches the ip of the the attacker. Providers often can detect an attack after a few seconds or minutes and can block your ip. That is why [expressVPN](https://www.expressvpn.com) is used in this project, as it is reliable and has the possibility to operate the vpn connection in a shell on Linux platforms. A step-by-step guide is described below.
 
 ## Warning!
@@ -20,15 +22,17 @@ For the use of the script some software needs to be installed firstly. ExpressVP
 After setting up the VM or using Linux directly:
 1. Install [Docker](https://docs.docker.com/engine/install/ubuntu/).
 2. Install [expressVPN](https://www.expressvpn.com/support/vpn-setup/app-for-linux/). You need firstly to create an account in expressVPN and select a VPN-option you want to use. Afterwards activate expressVPN on your device.
-3. Open Terminal and clone the Project on your computer:
+3. Open Terminal and clone the project on your computer:
 `git clone https://github.com/mackostya/bombard-with-expressVPN.git`
 4. `cd bombard-with-expressVPN`
 5. Now you can call the script as follows:
+
 `sudo bash bombard.sh -t {some_target} -p {port} -c {Country}`
+
 Description:
-    `-t` stands for the targeted ip or link
-    `-p` stands for the targetted port
-    `-c` stands for the name of the country you want your VPN to run in. You can check the list of countries, available by the expressVPN with `expressvpn ls`
+ - `-t` stands for the targeted ip or link
+ - `-p` stands for the targetted port
+ - `-c` stands for the name of the country you want your VPN to run in. You can check the list of countries, available by the expressVPN with `expressvpn ls`
 
 Example (don't use this target ip):
 `sudo bash bombard.sh -t 0.0.0.0 -p 80 -c Belarus`
